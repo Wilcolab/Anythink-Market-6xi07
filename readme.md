@@ -11,3 +11,19 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+**Step 1; Install Docker. Use the link https://docs.docker.com/get-docker/ _
+**Step 2; Create a docker account and sign into the account._
+**Step 3; After docker has been installed, Open your_ terminal(mac)/cmd(windows)/bash(linux)_
+**Step 4; Check if docker is installed by checking the versions using the below commands
+    docker -v
+    docker-compose -v _
+**Step 5; Run docker-compose up on the terminal from the project root directory to load Anythink's backend and frontend _
+    If Docker is working correctly, the backend should be running and able to connect to your local database. _
+**Step 6; Test this by pointing your browser to http://localhost:3000/api/ping _
+**Step 7; Check the frontend and make sure it’s connected to the backend. _
+        If everything is working properly, you’ll be able to create a new user on http://localhost:3001/register _
+**Step 8; Create a new user and let Ness know that you are connected _
+**Just make sure that you run all scripts in the next quests on one of the containers created by docker-compose up.  Also, you can use docker exec to run commands on a running container.** _
+
+
